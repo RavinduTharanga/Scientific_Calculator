@@ -51,9 +51,66 @@ int main(){
         cin>>b; 
         cout<<"Addition = "<<a+b<<endl; 
         break; 
+
+        case 5: 
+        cout<<"Enter the number : "; 
+        cin>>a; 
+        cout<<"Enter the exponent : "; 
+        cin>>b; 
+        cout<<"Exponent = "<<pow(a,b)<<endl; 
+        break; 
+        case 6: 
+        cout<<"Enter the number : "; 
+        cin>>a; 
+        cout<<"Square Root = "<<sqrt(a)<<endl; 
+        break; 
+        case 7: 
+        cout<<"Enter the number : "; 
+        cin>>a; 
+        cout<<"Sin = "<<sin(a)<<endl; 
+        break; 
+        case 8: 
+        cout<<"Enter the number : "; 
+        cin>>a; 
+        cout<<"Cos = "<<cos(a)<<endl; 
+        break; 
+        case 9: 
+        cout<<"Enter the number : "; 
+        cin>>a; 
+        cout<<"Tan = "<<tan(a)<<endl; 
+        break; 
+        case 10: 
+        cout<<"Enter the number : "; 
+        cin>>a; 
+        cout<<"Inverse of Sin = "<<asin(a)*180.0/PI<<endl; 
+        break; 
+        case 11: 
+        cout<<"Enter the number : "; 
+        cin>>a; 
+        cout<<"Inverse of Cos = "<<acos(a)*180.0/PI<<endl; 
+        break; 
+        case 12: 
+        cout<<"Enter the number : "; 
+        cin>>a; 
+        cout<<"Inverse of tan = "<<atan(a)*180.0/PI<<endl; 
+        break; 
+        case 13: 
+        cout<<"Enter the number : "; 
+        cin>>a; 
+        cout<<"Log = "<<log(a)<<endl; 
+        break; 
+        case 14: 
+        cout<<"Enter the number : "; 
+        cin>>a; 
+        cout<<"Log with base 10 = "<<log10(a)<<endl; 
+        break; 
+        default: 
+        cout<<"Wrong Input"<<endl; 
+
+     } 
+    
+                
+
         
 
-    }
-
 }
-
