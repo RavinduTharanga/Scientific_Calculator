@@ -21,4 +21,39 @@ int main(){
     cin>>c; 
     PI=3.14159265; 
 
+    switch(c){
+        case 1:
+        cout<<"Enter 1st number : ";
+        cin>>a;
+        cout<<"Enter 2nd number :  ";
+        cin>>b;
+        cout<<"Devision:"<<a/b<<endl;
+        break;
+
+        case 2:
+        cout<<"Enter 1st number : ";
+        cin>>a;
+        cout<<"Enter 2nd number :  ";
+        cin>>b;
+        cout<<"Multiplication:"<<a*b<<endl;
+        break;
+        case 3:
+        cout<<"Enter 1st number : ";
+        cin>>a;
+        cout<<"Enter 2nd number :  ";
+        cin>>b;
+        cout<<"Substraction:"<<a-b<<endl;
+        break;
+        case 4: 
+        cout<<"Enter 1st number : "; 
+        cin>>a; 
+        cout<<"Enter 2nd number : "; 
+        cin>>b; 
+        cout<<"Addition = "<<a+b<<endl; 
+        break; 
+        
+
+    }
+
 }
+
